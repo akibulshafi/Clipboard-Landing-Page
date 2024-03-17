@@ -1,0 +1,389 @@
+:root {
+    --strong-cyan: hsl(171, 66%, 44%);
+    --grayish-blue: hsl(201, 11%, 66%);
+
+    --dark-grayish-blue: hsl(210, 10%, 33%);
+    --grayish-blue: hsl(201, 11%, 66%);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Bai Jamjuree, sans-serif;
+    background-image: url(./clipboard-landing-page-master/images/bg-header-desktop.png);
+    background-repeat: no-repeat;
+    object-fit: contain;
+    text-align: center;
+    width: 100%;
+}
+
+
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 2.5rem;
+    margin-top: 7rem;
+    flex-wrap: wrap;
+   
+}
+
+header .head {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    width: 70%;
+    text-align: center;
+}
+
+.head h2 {
+    font-size: 2rem;
+}
+
+header img {
+    width: 6rem;
+}
+
+
+.btn {
+    display: flex;
+    gap: 1rem;
+}
+
+button:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.btn button {
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 10rem;
+    font-family: Bai Jamjuree, sans-serif;
+    font-weight: 700;
+    color: white;
+    text-align: center;
+}
+
+.btn .btn-one {
+    background-color: var(--strong-cyan);
+    box-shadow: 0px 5px 20px #91ffe7;
+}
+
+.btn .btn-two {
+    background-color: #6174ff;
+    box-shadow: 0px 5px 20px #a0abff;
+}
+
+/*Section One Starts Here*/
+
+.section-one {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.snippets {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-inline: auto;
+    width: 50%;
+    margin-top: 10rem;
+    gap: 1.2rem;
+}
+
+.snippets h3 {
+    font-size: 1.8rem;
+}
+
+.mac {
+    display: flex;
+    align-items: center;
+    gap: 8rem;
+}
+
+.mac img {
+    width: 50%;
+}
+
+.mac .info {
+    width: 30%;
+}
+
+.mac .info {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.info div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+
+/*Section Two Starts Here*/
+
+.section-two {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    margin-top: 10rem;
+}
+
+.section-two div {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+}
+
+.section-two img {
+    width: 50%;
+}
+
+.section-two div h3 {
+    font-size: 1.8rem;
+}
+
+
+
+/*Section Three Starts Here*/
+
+.section-three {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 4rem;
+    margin-top: 6rem;
+}
+
+.section-three-head {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.section-three div h3 {
+    font-size: 1.8rem;
+}
+
+.section-three .web-info-flex {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    width: 60%;
+}
+
+.section-three .web-info {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.section-three .web-info img {
+    width: 2rem;
+}
+
+
+/*LOGO*/
+
+.logo {
+    display: flex;
+    gap: 4rem;
+    margin-top: 10rem;
+    justify-content: center;
+}
+
+.logo img {
+    object-fit: contain;
+}
+
+/*DOWNLOAD*/
+
+.download {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 10rem;
+}
+
+.download-head {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 50%;
+} 
+
+/*FOOTER STARTS HERE*/
+
+footer {
+    width: 100%;
+    display: grid;
+    margin-top: 10rem;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    background-color: #f5f6f8;
+    padding: 1rem;
+}
+
+footer .links {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0.5rem 2rem;
+}
+
+footer .links a {
+    text-decoration: none;
+    color: var(--dark-grayish-blue);
+}
+
+footer .links a:hover {
+    color: var(--strong-cyan);
+}
+
+.footer-logo {
+    width: 3rem;
+} 
+
+.social {
+    display: flex;
+    gap: 1rem;
+}
+
+p {
+    opacity: 0.6;
+    font-weight: 600;
+}
+
+.copyright {
+    margin: 2rem 0;
+}
+
+.copyright a {
+    text-decoration: none;
+}
+
+
+@media (max-width: 375px) {
+    body {
+        background-image: url(./clipboard-landing-page-master/images/bg-header-mobile.png);
+    }
+}
+
+@media (max-width: 425px) {
+    body {
+        display: flex;
+        align-items: center;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    .btn {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn button {
+        padding: 1rem 8rem;
+    }
+
+    .snippets {
+        align-items: center;
+        width: 70%;
+    }
+
+    .mac {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        gap: 2rem
+    }
+
+    .mac img {
+        width: 70%;
+    }
+
+    .info h3 {
+        font-size: 1.8rem;
+    }
+
+    .section-two img {
+        width: 80%;
+    }
+
+    .section-three {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .web-info-flex {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .web-info {
+        margin-top: 3rem;
+    }
+
+    .web-info h4 {
+        font-size: 1.5rem;
+    }
+
+    .logo {
+        display: flex;
+        flex-direction: column;
+        width: 30%;
+    }
+
+    .download-head h3 {
+        font-size: 1.8rem;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer div {
+        margin-top: 1.8rem;
+    }
+
+    footer .links {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 1.6rem;
+    }
+}
